@@ -28,7 +28,6 @@ h1{
     overflow: hidden;
 }
 
-
 .shadow{
     background-color: rgba(255, 255, 255, 0.418);
     padding: 10px;
@@ -42,6 +41,20 @@ h1{
     box-shadow: 100px 10px 100px rgb(21, 248, 0);
 }
 
+h2{
+    text-align: center;
+    background-color: rgba(235, 25, 25, 0.411);
+}
 
+.shadow1{
+    background-color: rgba(218, 195, 195, 0.418);
+    padding: 10px;
+    box-shadow: 10px 10px 150px rgb(0, 68, 255);
+    transition: box-shadow 2s;
+    border:  solid rgb(255, 255, 255);
+    
+}
 
-
+.shadow1:hover {
+    box-shadow: 100px 10px 100px rgba(255, 0, 0, 0.87);
+}
