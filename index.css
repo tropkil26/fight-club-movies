@@ -1,16 +1,29 @@
+/* headings */
+
+/* shadow */
+
+
 h1 {
     text-align: center;
     background-color: rgba(255, 0, 0, 0.445);
 }
 
-.object-center {
+.w33 {
+    width: calc(100% / 3);
+}
+
+.h400 {
     height: 400px;
-    width: 400px;
+}
+
+.object-center {
+    height: 100%;
+    width: 100%;
     object-fit: cover;
     object-position: center;
 }
 
-.header {
+.text-center {
     text-align: center;
 }
 
@@ -29,12 +42,6 @@ h1 {
 .justify-center {
     justify-content: center;
 }
-
-
-.img {
-    text-align: center;
-}
-
 
 .overflow-hidden {
     overflow: hidden;
